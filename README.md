@@ -1,21 +1,27 @@
-TaskFlow API is a RESTful backend application designed to manage tasks efficiently.
-It provides a clean and scalable architecture for creating, updating, retrieving, and deleting tasks.
+# Tasks REST API
 
-The project is built using Node.js and Express for the server-side logic, MongoDB as the database, and Mongoose for schema modeling and data validation. Additionally, Jest is used to implement automated testing to ensure reliability and maintainability.
+API RESTful para la gestión de tareas construida con Node.js, Express y MongoDB. Permite crear, consultar, actualizar y eliminar tareas de manera eficiente, siguiendo buenas prácticas de desarrollo backend y pruebas automatizadas.
 
-This API demonstrates best practices in backend development, including structured routing, data validation, modular architecture, and test-driven development principles.
+## 🚀 Tecnologías
 
-🚀 Features
-. Create, read, update, and delete tasks (CRUD)
-. MongoDB integration using Mongoose
-. RESTful API architecture
-. Input validation and schema modeling
-. Automated testing with Jest
-Scalable and modular backend structure
-🛠️ Tech Stack
-. Node.js
-. Express.js
-. MongoDB
-. Mongoose
-. Jest
+* **Node.js** - Entorno de ejecución
+* **Express.js** - Framework web para APIs
+* **MongoDB** - Base de datos NoSQL
+* **Mongoose** - ODM para modelado de datos
+* **Jest** - Framework para pruebas unitarias
 
+## 📋 Características
+
+* ✅ CRUD completo de tareas
+* ✅ Arquitectura RESTful
+* ✅ Modelado de datos con Mongoose
+* ✅ Validación de datos
+* ✅ Manejo de errores
+* ✅ Pruebas automatizadas con Jest
+
+## 🔧 Instalación
+1. Clonar el repositorio
+
+```bash
+git clone git@github.com:aamotta0/Api-Rest-Tasks.git
+cd Api-Rest-Tasks
